@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	background-image: url("http://localhost/CalcioForums/images/ita.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+.top_container {
+	font-family: Zapf Chancery, cursive;
+	height: 120px;
+}
+
+.header {
+	color: black;
+	margin-left: 10px;
+}
+
+.nav_menu {
+	text-align: center;
+}
+
+.nav_menu>ul {
+	display: inline-block;
+	background-color: rgba(192, 192, 192, 0.3);
+}
+
+.nav_menu>li {
+	display: inline;
+	list-style-type: none;
+	margin: 20px;
+}
+
+.nav_menu>li:hover {
+	background-color: rgba(192, 192, 192, 0.6);
+}
+
+.nav_menu>li>a {
+	text-decoration: none;
+	color: black;
+}
+
+.hoverDropDown {
+	display: inline;
+}
+
+.hoverDropDown>a {
+	text-decoration: none;
+	color: black;
+}
+
+.forum_body {
+	height: 800px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+.dropDownForm {
+	background-color: rgba(192, 192, 192, 0.3);
+	padding: 2px;
+}
+
+#loginForm {
+	display: none;
+}
+
+#registerForm {
+	display: none;
+}
