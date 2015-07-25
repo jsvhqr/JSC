@@ -3,7 +3,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	border: none;
 }
 
 body {
@@ -15,16 +14,17 @@ body {
 
 .top_container {
 	font-family: Zapf Chancery, cursive;
-	height: 120px;
+	text-align: center;
 }
 
 .header {
 	color: black;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 
 .nav_menu {
 	text-align: center;
+	list-style-type: none;
 }
 
 .nav_menu>ul {
@@ -33,7 +33,10 @@ body {
 }
 
 .nav_menu>li {
-	display: inline;
+	float: left;
+	display: block;
+	line-height: 35px;
+	padding: 0 15px;
 	list-style-type: none;
 	margin: 20px;
 }
@@ -47,24 +50,13 @@ body {
 	color: black;
 }
 
-.hoverDropDown {
-	display: inline;
-}
-
-.hoverDropDown>a {
-	text-decoration: none;
-	color: black;
-}
-
-.forum_body {
-	height: 800px;
-	margin: 0 auto;
-	background-color: black;
-}
-
 .dropDownForm {
-	background-color: rgba(192, 192, 192, 0.3);
-	padding: 2px;
+	background-color: rgba(192, 192, 192, 1.0);;
+	list-style-type: none;
+	position: absolute;
+	padding: 0 15px;
+	margin-left: -35px;
+	border-radius: 10px;
 }
 
 #loginForm {
@@ -73,4 +65,39 @@ body {
 
 #registerForm {
 	display: none;
+}
+
+.statusLabel{
+	font-size: 12px;
+}
+
+#submitReg{
+	display:block;
+	margin: 0 auto;
+}
+
+.forum_body {
+	height: 600px;
+	width: 1000px;
+	background-color: black;
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	float: left;
+	border-style: ridge;
+}
+
+.teamList {
+	list-style-type: none;
+	text-align: center;
+}
+
+.leagueTable {
+	height: 600px;
+	width: 385px;
+	background-color: black;
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	border: ridge;
 }
